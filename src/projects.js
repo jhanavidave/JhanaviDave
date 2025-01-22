@@ -6,12 +6,13 @@ function Projects() {
       <hr />
       <p id="spacing">
 
-        <b>MY PORTFOLIO:</b>
+        <b>MY WEBSITE:</b>
         <br />
         SEP. 2024 - NOV. 2024
         <ul>
           <li>Technologies used: ReactJS, HTML5/CSS3, JavaScript</li>
-          <li>Developed a personal portfolio website to showcase my skills, profile, and journey as a software developer. The website includes sections detailing my education, projects, achievements, and a contact form. I utilized ReactJS for the frontend, ensuring responsiveness and a smooth user experience across devices. Hosted the website on GitHub Pages for easy access and demonstration of my web development capabilities.</li>
+          <li>Developed a personal website to showcase my skills, profile, and journey as a software developer. The website includes sections detailing my education, projects, achievements, and a contact form. I utilized ReactJS for the frontend, ensuring responsiveness and a smooth user experience across devices. Hosted the website on GitHub Pages for easy access and demonstration of my web development capabilities.</li>
+          <li><b><u>Website:</u></b> <a href='https://jhanavidave.github.io/JhanaviDave/'>https://jhanavidave.github.io/JhanaviDave/</a></li>
         </ul>
         <br />
 
@@ -71,7 +72,7 @@ function Projects() {
 
         <b>BATTLESHIPS:</b>
         <br />
-        OCT. 2023 - NOV. 2024
+        OCT. 2023 - NOV. 2023
         <ul>
           <li>Technologies used: Flutter, Dart, Git, RestAPI, JSON, Android Studio, VS Code, NoSQL, Git Repository, Java, HTML5/CSS3</li>
           <li>Developed an android application for managing account, games stats, and playing the Battleships game with live players.</li>
@@ -80,7 +81,7 @@ function Projects() {
 
         <b>LET’S STUDY:</b>
         <br />
-        AUG. 2023 - OCT. 2024
+        AUG. 2023 - OCT. 2023
         <ul>
           <li>Technologies used: Flutter, Dart, Git, RestAPI, JSON, Android Studio, VS Code, NoSQL, Git Repository, Java, HTML5/CSS3</li>
           <li>Developed an android application for creating and managing decks and flashcards, with individual access to private application screens and cards to study.</li>

@@ -27,6 +27,7 @@ function App() {
           &nbsp;|
         </nav>
       </div>
+      <div><h2>Please click on the above links to know more about me!</h2></div>
       <div>
         <Routes>
           <Route path='/ ' element={<App />} className="route-style" />
