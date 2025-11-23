@@ -1,7 +1,6 @@
-import { HashRouter, NavLink, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom';
 import Aboutme from './aboutme';
 import Achievements from './achievements';
-import Home from './App';
 import './App.css';
 import Courses from './courses';
 import Edu from './edu';
@@ -10,37 +9,43 @@ import Projects from './projects';
 import Resume from './resume';
 
 function App() {
+  const tiles = [
+    { label: 'About Me', to: '/aboutme' },
+    { label: 'Resume', to: '/resume' },
+    { label: 'Experience', to: '/profex' },
+    { label: 'Education', to: '/edu' },
+    { label: 'Projects', to: '/projects' },
+    { label: 'Courses', to: '/courses' },
+    { label: 'Achievements', to: '/achievements' },
+  ];
+
   return (
-    <HashRouter>
-      <div className="App" id='div1'>
+    <BrowserRouter>
+      <div className="App" id="div1">
         <h1>JHANAVI DAVE</h1>
+        <h3>Software Engineer | Full Stack Developer | App Developer</h3>
         <hr />
-        <nav id='nav1'>
-          |&nbsp;
-          <NavLink to='/aboutme' className="link-style">AboutMe</NavLink>&nbsp;|&nbsp;
-          <NavLink to='/resume' className="link-style">Resume</NavLink>&nbsp;|&nbsp;
-          <NavLink to='/profex' className="link-style">Experience</NavLink>&nbsp;|&nbsp;
-          <NavLink to='/edu' className="link-style">Education</NavLink>&nbsp;|&nbsp;
-          <NavLink to='/projects' className="link-style">Projects</NavLink>&nbsp;|&nbsp;
-          <NavLink to='/courses' className="link-style">Courses</NavLink>&nbsp;|&nbsp;
-          <NavLink to='/achievements' className="link-style">Achievements</NavLink>
-          &nbsp;|
-        </nav>
+
+        <div className="tile-grid" role="navigation" aria-label="Main navigation tiles">
+          {tiles.map((t) => (
+            <NavLink key={t.to} to={t.to} className="tile">
+              <div className="tile-label">{t.label}</div>
+            </NavLink>
+          ))}
+        </div>
       </div>
-      <div>
-        <Routes>
-          <Route path='/ ' element={<App />} className="route-style" />
-          <Route path='/home' element={<Home />} className="route-style" />
-          <Route path='/aboutme' element={<Aboutme />} className="route-style" />
-          <Route path='/resume' element={<Resume />} className="route-style" />
-          <Route path='/profex' element={<Profex />} className="route-style" />
-          <Route path='/edu' element={<Edu />} className="route-style" />
-          <Route path='/projects' element={<Projects />} className="route-style" />
-          <Route path='/courses' element={<Courses />} className="route-style" />
-          <Route path='/achievements' element={<Achievements />} className="route-style" />
-        </Routes>
-      </div>
-    </HashRouter>
+
+      <Routes>
+        <Route path="/" element={<div />} />
+        <Route path="/aboutme" element={<Aboutme />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/profex" element={<Profex />} />
+        <Route path="/edu" element={<Edu />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/courses" element={<Courses />} />
+        <Route path="/achievements" element={<Achievements />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
