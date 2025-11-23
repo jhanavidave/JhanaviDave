@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Jhanavi Dave — Software & App Developer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About Me
 
-## Available Scripts
+I am a software developer focused on full‑stack and mobile applications. I build user-focused web and mobile experiences using modern JavaScript, React, Node.js, and related technologies. I enjoy solving problems that improve usability, performance, and reliability.
 
-In the project directory, you can run:
+## Summary of Work & Results
 
-### `npm start`
+- Built responsive React web apps and single-page experiences with improved load times and accessibility.
+- Developed backend APIs (Node.js/Express) and integrated databases to support data-driven features and user authentication.
+- Created mobile app prototypes demonstrating native-like UX using React Native and cross-platform tooling.
+- Delivered projects that reduced manual processes and improved user workflows; measurable outcomes include faster page loads and clearer team reporting.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Selected Projects
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Personal Portfolio Website** — Live site showcasing projects, resume, and contact details. Result: clear online presence and easy portfolio updates. (Live: https://jhanavidave.github.io/JhanaviDave/)
+- **Project Management Dashboard** — React + Node.js app that visualizes tasks and team progress. Result: streamlined task tracking and faster status reporting.
+- **Gallery & Media Viewer** — Performance-optimized image gallery with lazy loading and responsive layout. Result: faster initial render and improved mobile experience.
+- **Mobile App Prototype** — React Native prototype for event listings with offline caching. Result: validated UX flows and prototype-ready features.
 
-### `npm test`
+## Courses & Relevant Topics
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Web Development: HTML, CSS, JavaScript, React, Redux
+- Backend & APIs: Node.js, Express, RESTful design, JWT auth
+- Databases: SQL fundamentals, MongoDB basics
+- Mobile & App Dev: React Native, responsive and adaptive UI
+- Computer Science Fundamentals: Data structures, algorithms, Git/version control
+- DevOps & Tooling: npm, build tooling, testing, basic CI/CD concepts
 
-### `npm run build`
+## Technologies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Below are the technologies I work with, grouped by role to highlight relevant stacks.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Software Developer:** JavaScript (ES6+), TypeScript (familiar), HTML5, CSS3, SASS/SCSS, responsive design, accessibility (a11y).
+- **Full‑Stack Developer:** React, Redux, React Router, Node.js, Express, RESTful APIs, GraphQL (basic), MongoDB, PostgreSQL / SQL fundamentals, authentication (JWT).
+- **App (Mobile) Developer:** React Native, Expo, mobile-responsive UI patterns, offline caching and local storage strategies.
+- **Tools & Dev Workflow:** Git, GitHub, npm, yarn, webpack, Babel, ESLint, basic Docker, CI/CD concepts (GitHub Actions, Netlify deployments), performance profiling and browser devtools.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Link
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Visit my portfolio and live demos: https://jhanavidave.github.io/JhanaviDave/
